@@ -1,0 +1,8 @@
+This is an extremely simple program to extract original music from game VVVVVV.
+You simply need to get source file, compile it and run it:
+
+gcc -o extract extract.c
+./extract <path-to-vvvvvvmusic.vvv>
+
+After that it will create 15 files with all the tracks from game in OGG Vorbis
+format.
